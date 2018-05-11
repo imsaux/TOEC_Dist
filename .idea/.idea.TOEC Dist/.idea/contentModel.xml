@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_TOEC Dist.-779585875.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="Common" t="Include">
+        <e p="Config.cs" t="Include" />
+      </e>
+      <e p="Config" t="Include">
+        <e p="Base.config" t="Include" />
+        <e p="Template.xml" t="Include" />
+        <e p="stinfo.txt" t="Include" />
+      </e>
+      <e p="Converter" t="Include">
+        <e p="StringConverterColor.cs" t="Include" />
+      </e>
+      <e p="Model" t="Include">
+        <e p="appliction.cs" t="Include" />
+        <e p="database.cs" t="Include" />
+        <e p="folder.cs" t="Include" />
+        <e p="modify_xml.cs" t="Include" />
+        <e p="server.cs" t="Include" />
+        <e p="software.cs" t="Include" />
+        <e p="template.cs" t="Include" />
+        <e p="web.cs" t="Include" />
+      </e>
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+      </e>
+      <e p="Styles" t="Include">
+        <e p="BaseStyle.xaml" t="Include" />
+        <e p="Bootstrap.xaml" t="Include" />
+        <e p="Button.xaml" t="Include" />
+        <e p="Colors.xaml" t="Include" />
+        <e p="DataGrid.xaml" t="Include" />
+        <e p="Fonts.xaml" t="Include" />
+        <e p="FormControl.xaml" t="Include" />
+        <e p="InputGroup.xaml" t="Include" />
+        <e p="Label.xaml" t="Include" />
+        <e p="Panel.xaml" t="Include" />
+        <e p="Path.xaml" t="Include" />
+        <e p="ProgressBar.xaml" t="Include" />
+        <e p="Sizes.xaml" t="Include" />
+        <e p="Window.xaml" t="Include" />
+      </e>
+      <e p="TOEC Dist.csproj" t="IncludeRecursive" />
+      <e p="TOEC Dist.sln" t="IncludeFlat" />
+      <e p="ViewModel" t="Include">
+        <e p="bind_report.cs" t="Include" />
+        <e p="report.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="win_wizard.xaml" t="Include" />
+      <e p="win_wizard.xaml.cs" t="Include" />
+      <e p="zip.ico" t="Include" />
+    </e>
+  </component>
+</project>
