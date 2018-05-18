@@ -1,0 +1,36 @@
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\Config\Base.config
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\Config\stinfo.txt
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\Config\Template.xml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\TOEC Dist.exe.config
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\TOEC Dist.exe
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\TOEC Dist.pdb
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\Heng.dll
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\Microsoft.Web.Administration.dll
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\bin\x86\Debug\MySql.Data.dll
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist.csprojResolveAssemblyReference.cache
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\BaseStyle.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Bootstrap.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Button.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Colors.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\DataGrid.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Fonts.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\FormControl.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\InputGroup.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Label.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Panel.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Path.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\ProgressBar.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Sizes.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\Styles\Window.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\win_wizard.g.cs
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\App.g.cs
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist_MarkupCompile.cache
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist_MarkupCompile.lref
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\App.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\win_wizard.baml
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist.g.resources
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC_Dist.Properties.Resources.resources
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist.csproj.GenerateResource.Cache
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist.exe
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\TOEC Dist.pdb

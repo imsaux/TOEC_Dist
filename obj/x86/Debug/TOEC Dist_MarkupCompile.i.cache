@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\Debug\
+D:\code\gitgit\TOEC_Dist\TOEC_Dist\obj\x86\Debug\
 TOEC_Dist
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 D:\code\gitgit\TOEC_Dist\TOEC_Dist\App.xaml
 151510879006
 
-201283645515
-20-789568475
+20964979243
+202114684818
 Styles\BaseStyle.xaml;Styles\Bootstrap.xaml;Styles\Button.xaml;Styles\Colors.xaml;Styles\DataGrid.xaml;Styles\Fonts.xaml;Styles\FormControl.xaml;Styles\InputGroup.xaml;Styles\Label.xaml;Styles\Panel.xaml;Styles\Path.xaml;Styles\ProgressBar.xaml;Styles\Sizes.xaml;Styles\Window.xaml;win_wizard.xaml;
 
 False

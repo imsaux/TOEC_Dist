@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root ver="2.7">
+  <!--创建共享文件夹结构-->
+  <folder comment="侧面图像目录" name="GQPics" path="E:\GQPics\" enable="true" >
+    <sub>202.202.202.2</sub>
+    <sub>202.202.202.3</sub>
+  </folder>
+  <folder comment="走行部图像目录" name="ZXGQPics" path="E:\ZXGQPics\" enable="true">
+    <sub>202.202.202.2</sub>
+    <sub>202.202.202.3</sub>
+  </folder>
+  <folder comment="视频目录" name="lx" path="E:\lx\" enable="true">
+    <sub>202.202.202.2</sub>
+    <sub>202.202.202.3</sub>
+  </folder>
+  <db comment="TOEC数据库" name="mysql" sql="sqlbats" enable="true" />
+  <srv comment="TOEC基础服务" name="TOEC_BaseService"   autostart="true" enable="true"/>
+  <srv comment="TOEC传图服务" name="TOEC_ImageAlgSvr"   autostart="true" enable="true"/>
+  <srv comment="TOEC守护进程" name="TOEC_Daemon"   autostart="false" enable="true"/>
+  <srv comment="TOEC入库服务" name="IndexImportService" autostart="true" enable="true"/>
+  <srv comment="TOEC数据服务" name="TOEC_DataService"   autostart="true" enable="true" >
+    <xml path="ConfigFiles\TrainInfoImportDriverConfig.xml" id="SocketInfo_sx" attr="ipaddress" value="@IP" encode="utf-8"/>
+    <xml path="ConfigFiles\TrainInfoImportDriverConfig.xml" id="SocketInfo_xx" attr="ipaddress" value="@IP" encode="utf-8"/>
+    <xml path="ConfigFiles\ImageVisionDriverConfig.xml" id="line_sx" attr="socketIP" value="@IP" encode="utf-8"/>
+    <xml path="ConfigFiles\ImageVisionDriverConfig.xml" id="line_xx" attr="socketIP" value="@IP" encode="utf-8"/>
+    <!--配置交错车判断方式：基于socket判断交错车时 value=1，jcc_flag 为0；基于算法判断交错车时，value=2，jcc_flag=1 -->
+    <xml path="ConfigFiles\ImageVisionDriverConfig.xml" id="ConfigInfo" attr="staggerJudgeType" value="0" encode="utf-8" />
+    <xml path="detect_param.xml" id="jcc_flag" encode="">1</xml>
+    <!--配置与确报的匹配方式 value=0 ：按顺位匹配（默认单机头）； value=1：按:车号及车号差匹配-->
+    <xml path="ConfigFiles\ImageVisionDriverConfig.xml" id="ConfigInfo" attr="qbParseType" value="1" encode="utf-8" />
+    <!--配置热轮服务器端的热轮文件路径-->
+    <xml path="ConfigFiles\HotWheelParseDriverConfig.xml" id="hotwheel_sx" attr="filepath" value="\\202.202.202.100\上行热轮数据" encode="utf-8" />
+    <xml path="ConfigFiles\HotWheelParseDriverConfig.xml" id="hotwheel_xx" attr="filepath" value="\\202.202.202.100\下行热轮数据" encode="utf-8" />
+  </srv>
+  <app comment="TOECVAmonitor上行" name="TOECVAMonitor_sx" autostart="true" enable="true"/>
+  <app comment="TOECVAMonitor下行" name="TOECVAMonitor_xx" autostart="true" enable="true"/>
+  <app comment="指标测试程序" name="TOEC Index Test"  autostart="true" enable="true" />
+  <app comment="录音软件" name="TradioRecorder" autostart="false" enable="true" />
+  <app comment="巡检系统" name="TOEC Inspection" autostart="false" enable="true" />
+  <web comment="TOEC预警网站" name="SASTAD" port="80" autostart="true" enable="true">
+    <!--虚拟目录-->
+    <vf name="GQPics">E:\GQPics\</vf>
+    <vf name="ZXGQPics">E:\ZXGQPics\</vf>
+    <vf name="lx">E:\lx\</vf>
+  </web>
+  <web comment="TOEC网络服务" name="SASTAD-WS" port="801" autostart="true" enable="true"/>
+</root>
+
+<!--
+1.所有节点的属性尽量不省略，以便后期维护记得（省略则默认为空）。
+2.软件的属性介绍：
+【name】统一：程序名称、服务名称、文件夹名称，不区分大小写
+【comment】注释
+【autostart】部署后自动开启
+【enable】是否执行部署（true执行，false跳过）
+【sql】数据库脚本打包名称
+
+子标签[xml]属性
+【path】配置文件路径
+【id\attr\value\encode】分别表示：配置文件中的标签id、属性名称、属性值、编码格式（默认utf-8）
+子标签[vf]属性
+【name】虚拟目录发布名称
+【内联值】虚拟目录路径
+-->
